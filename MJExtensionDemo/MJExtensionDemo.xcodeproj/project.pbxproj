@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EE53A461D6D6D3C005A6E80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A451D6D6D3C005A6E80 /* main.m */; };
+		8EE53A491D6D6D3C005A6E80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A481D6D6D3C005A6E80 /* AppDelegate.m */; };
+		8EE53A4C1D6D6D3C005A6E80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A4B1D6D6D3C005A6E80 /* ViewController.m */; };
+		8EE53A4F1D6D6D3C005A6E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE53A4D1D6D6D3C005A6E80 /* Main.storyboard */; };
+		8EE53A511D6D6D3C005A6E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE53A501D6D6D3C005A6E80 /* Assets.xcassets */; };
+		8EE53A541D6D6D3C005A6E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE53A521D6D6D3C005A6E80 /* LaunchScreen.storyboard */; };
+		8EE53A721D6D6D6C005A6E80 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EE53A5C1D6D6D6C005A6E80 /* Info.plist */; };
+		8EE53A731D6D6D6C005A6E80 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A5F1D6D6D6C005A6E80 /* MJExtensionConst.m */; };
+		8EE53A741D6D6D6C005A6E80 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A611D6D6D6C005A6E80 /* MJFoundation.m */; };
+		8EE53A751D6D6D6C005A6E80 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A631D6D6D6C005A6E80 /* MJProperty.m */; };
+		8EE53A761D6D6D6C005A6E80 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A651D6D6D6C005A6E80 /* MJPropertyKey.m */; };
+		8EE53A771D6D6D6C005A6E80 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A671D6D6D6C005A6E80 /* MJPropertyType.m */; };
+		8EE53A781D6D6D6C005A6E80 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A691D6D6D6C005A6E80 /* NSObject+MJClass.m */; };
+		8EE53A791D6D6D6C005A6E80 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A6B1D6D6D6C005A6E80 /* NSObject+MJCoding.m */; };
+		8EE53A7A1D6D6D6C005A6E80 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A6D1D6D6D6C005A6E80 /* NSObject+MJKeyValue.m */; };
+		8EE53A7B1D6D6D6C005A6E80 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A6F1D6D6D6C005A6E80 /* NSObject+MJProperty.m */; };
+		8EE53A7C1D6D6D6C005A6E80 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE53A711D6D6D6C005A6E80 /* NSString+MJExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8EE53A411D6D6D3C005A6E80 /* MJExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE53A451D6D6D3C005A6E80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EE53A471D6D6D3C005A6E80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EE53A481D6D6D3C005A6E80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EE53A4A1D6D6D3C005A6E80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EE53A4B1D6D6D3C005A6E80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EE53A4E1D6D6D3C005A6E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EE53A501D6D6D3C005A6E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EE53A531D6D6D3C005A6E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EE53A551D6D6D3C005A6E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE53A5C1D6D6D6C005A6E80 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE53A5D1D6D6D6C005A6E80 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		8EE53A5E1D6D6D6C005A6E80 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		8EE53A5F1D6D6D6C005A6E80 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		8EE53A601D6D6D6C005A6E80 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		8EE53A611D6D6D6C005A6E80 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		8EE53A621D6D6D6C005A6E80 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		8EE53A631D6D6D6C005A6E80 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		8EE53A641D6D6D6C005A6E80 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		8EE53A651D6D6D6C005A6E80 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		8EE53A661D6D6D6C005A6E80 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		8EE53A671D6D6D6C005A6E80 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		8EE53A681D6D6D6C005A6E80 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		8EE53A691D6D6D6C005A6E80 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		8EE53A6A1D6D6D6C005A6E80 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		8EE53A6B1D6D6D6C005A6E80 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		8EE53A6C1D6D6D6C005A6E80 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		8EE53A6D1D6D6D6C005A6E80 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		8EE53A6E1D6D6D6C005A6E80 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		8EE53A6F1D6D6D6C005A6E80 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		8EE53A701D6D6D6C005A6E80 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		8EE53A711D6D6D6C005A6E80 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EE53A3E1D6D6D3C005A6E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EE53A381D6D6D3C005A6E80 = {
+			isa = PBXGroup;
+			children = (
+				8EE53A431D6D6D3C005A6E80 /* MJExtensionDemo */,
+				8EE53A421D6D6D3C005A6E80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE53A421D6D6D3C005A6E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE53A411D6D6D3C005A6E80 /* MJExtensionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EE53A431D6D6D3C005A6E80 /* MJExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8EE53A5B1D6D6D6C005A6E80 /* MJExtension */,
+				8EE53A471D6D6D3C005A6E80 /* AppDelegate.h */,
+				8EE53A481D6D6D3C005A6E80 /* AppDelegate.m */,
+				8EE53A4A1D6D6D3C005A6E80 /* ViewController.h */,
+				8EE53A4B1D6D6D3C005A6E80 /* ViewController.m */,
+				8EE53A4D1D6D6D3C005A6E80 /* Main.storyboard */,
+				8EE53A501D6D6D3C005A6E80 /* Assets.xcassets */,
+				8EE53A521D6D6D3C005A6E80 /* LaunchScreen.storyboard */,
+				8EE53A551D6D6D3C005A6E80 /* Info.plist */,
+				8EE53A441D6D6D3C005A6E80 /* Supporting Files */,
+			);
+			path = MJExtensionDemo;
+			sourceTree = "<group>";
+		};
+		8EE53A441D6D6D3C005A6E80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EE53A451D6D6D3C005A6E80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EE53A5B1D6D6D6C005A6E80 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8EE53A5C1D6D6D6C005A6E80 /* Info.plist */,
+				8EE53A5D1D6D6D6C005A6E80 /* MJExtension.h */,
+				8EE53A5E1D6D6D6C005A6E80 /* MJExtensionConst.h */,
+				8EE53A5F1D6D6D6C005A6E80 /* MJExtensionConst.m */,
+				8EE53A601D6D6D6C005A6E80 /* MJFoundation.h */,
+				8EE53A611D6D6D6C005A6E80 /* MJFoundation.m */,
+				8EE53A621D6D6D6C005A6E80 /* MJProperty.h */,
+				8EE53A631D6D6D6C005A6E80 /* MJProperty.m */,
+				8EE53A641D6D6D6C005A6E80 /* MJPropertyKey.h */,
+				8EE53A651D6D6D6C005A6E80 /* MJPropertyKey.m */,
+				8EE53A661D6D6D6C005A6E80 /* MJPropertyType.h */,
+				8EE53A671D6D6D6C005A6E80 /* MJPropertyType.m */,
+				8EE53A681D6D6D6C005A6E80 /* NSObject+MJClass.h */,
+				8EE53A691D6D6D6C005A6E80 /* NSObject+MJClass.m */,
+				8EE53A6A1D6D6D6C005A6E80 /* NSObject+MJCoding.h */,
+				8EE53A6B1D6D6D6C005A6E80 /* NSObject+MJCoding.m */,
+				8EE53A6C1D6D6D6C005A6E80 /* NSObject+MJKeyValue.h */,
+				8EE53A6D1D6D6D6C005A6E80 /* NSObject+MJKeyValue.m */,
+				8EE53A6E1D6D6D6C005A6E80 /* NSObject+MJProperty.h */,
+				8EE53A6F1D6D6D6C005A6E80 /* NSObject+MJProperty.m */,
+				8EE53A701D6D6D6C005A6E80 /* NSString+MJExtension.h */,
+				8EE53A711D6D6D6C005A6E80 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EE53A401D6D6D3C005A6E80 /* MJExtensionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE53A581D6D6D3C005A6E80 /* Build configuration list for PBXNativeTarget "MJExtensionDemo" */;
+			buildPhases = (
+				8EE53A3D1D6D6D3C005A6E80 /* Sources */,
+				8EE53A3E1D6D6D3C005A6E80 /* Frameworks */,
+				8EE53A3F1D6D6D3C005A6E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExtensionDemo;
+			productName = MJExtensionDemo;
+			productReference = 8EE53A411D6D6D3C005A6E80 /* MJExtensionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE53A391D6D6D3C005A6E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = D;
+				TargetAttributes = {
+					8EE53A401D6D6D3C005A6E80 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8EE53A3C1D6D6D3C005A6E80 /* Build configuration list for PBXProject "MJExtensionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EE53A381D6D6D3C005A6E80;
+			productRefGroup = 8EE53A421D6D6D3C005A6E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE53A401D6D6D3C005A6E80 /* MJExtensionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EE53A3F1D6D6D3C005A6E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE53A721D6D6D6C005A6E80 /* Info.plist in Resources */,
+				8EE53A541D6D6D3C005A6E80 /* LaunchScreen.storyboard in Resources */,
+				8EE53A511D6D6D3C005A6E80 /* Assets.xcassets in Resources */,
+				8EE53A4F1D6D6D3C005A6E80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EE53A3D1D6D6D3C005A6E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE53A781D6D6D6C005A6E80 /* NSObject+MJClass.m in Sources */,
+				8EE53A731D6D6D6C005A6E80 /* MJExtensionConst.m in Sources */,
+				8EE53A771D6D6D6C005A6E80 /* MJPropertyType.m in Sources */,
+				8EE53A761D6D6D6C005A6E80 /* MJPropertyKey.m in Sources */,
+				8EE53A7A1D6D6D6C005A6E80 /* NSObject+MJKeyValue.m in Sources */,
+				8EE53A791D6D6D6C005A6E80 /* NSObject+MJCoding.m in Sources */,
+				8EE53A7C1D6D6D6C005A6E80 /* NSString+MJExtension.m in Sources */,
+				8EE53A751D6D6D6C005A6E80 /* MJProperty.m in Sources */,
+				8EE53A7B1D6D6D6C005A6E80 /* NSObject+MJProperty.m in Sources */,
+				8EE53A4C1D6D6D3C005A6E80 /* ViewController.m in Sources */,
+				8EE53A491D6D6D3C005A6E80 /* AppDelegate.m in Sources */,
+				8EE53A741D6D6D6C005A6E80 /* MJFoundation.m in Sources */,
+				8EE53A461D6D6D3C005A6E80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EE53A4D1D6D6D3C005A6E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE53A4E1D6D6D3C005A6E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EE53A521D6D6D3C005A6E80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE53A531D6D6D3C005A6E80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EE53A561D6D6D3C005A6E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EE53A571D6D6D3C005A6E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE53A591D6D6D3C005A6E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MJExtensionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MK.MJExtensionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EE53A5A1D6D6D3C005A6E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MJExtensionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MK.MJExtensionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EE53A3C1D6D6D3C005A6E80 /* Build configuration list for PBXProject "MJExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE53A561D6D6D3C005A6E80 /* Debug */,
+				8EE53A571D6D6D3C005A6E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE53A581D6D6D3C005A6E80 /* Build configuration list for PBXNativeTarget "MJExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE53A591D6D6D3C005A6E80 /* Debug */,
+				8EE53A5A1D6D6D3C005A6E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EE53A391D6D6D3C005A6E80 /* Project object */;
+}
